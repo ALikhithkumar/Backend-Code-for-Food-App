@@ -23,5 +23,5 @@ app.listen(PORT, () => {
     console.log("server listening ")
 })
 app.use('/', (req, res) => {
-    res.sendFile("<h1>Welcome")
+    res.sendFile("Welcome")
 })
